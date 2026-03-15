@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | Udvash-Unmesh Online Care</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="dashboard">
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="logo">Udvash-Unmesh<br />Online Care</div>
+      <nav>
+        <ul class="menu">
+          <li><a href="dashboard.html" data-nav="dashboard">Dashboard</a></li>
+          <li><a href="add-course.html" data-nav="add-course">Add Course</a></li>
+          <li><a href="course-content.html" data-nav="course-content">Course & Content</a></li>
+          <li><a href="master-class.html" data-nav="master-class">Master Class</a></li>
+          <li><a href="foundation-class.html" data-nav="foundation-class">Foundation Class</a></li>
+          <li><a href="past-classes.html" data-nav="past-classes">Past Classes</a></li>
+          <li><a href="past-exams.html" data-nav="past-exams">Past Exams</a></li>
+          <li><a href="practice-exam.html" data-nav="practice-exam">Practice Exam</a></li>
+          <li><a href="solve-sheet.html" data-nav="solve-sheet">Solve Sheet</a></li>
+          <li><a href="performance.html" data-nav="performance">Performance</a></li>
+          <li><a href="qa-service.html" data-nav="qa-service">Q&A Service</a></li>
+          <li><a href="due-payment.html" data-nav="due-payment">Due Payment</a></li>
+          <li><a href="discussion-group.html" data-nav="discussion-group">Discussion Group</a></li>
+          <li><a href="community.html" data-nav="community">Community</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <section class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+          <div>
+            <h1>Dashboard</h1>
+            <p>Mudassir Hasan Rohan | HSC Model Test 26 | Batch: HSC 26</p>
+          </div>
+        </div>
+        <div class="profile-mini">
+          <div class="avatar">MR</div>
+          <div>
+            <strong>Mudassir Hasan Rohan</strong>
+            <small>ID: 16348</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="profile-grid">
+        <article class="profile-card">
+          <div class="avatar large">MR</div>
+          <div class="profile-meta">
+            <h2>Mudassir Hasan Rohan</h2>
+            <p>Student ID: 16348</p>
+            <p>Course: HSC Model Test 26</p>
+            <p>Batch: HSC 26</p>
+          </div>
+        </article>
+        <article class="panel">
+          <h3>Current Standing</h3>
+          <ul class="list">
+            <li><span>Completed Exams</span><strong>12</strong></li>
+            <li><span>Average Score</span><strong>73.1%</strong></li>
+            <li><span>Absent Exams</span><strong>2</strong></li>
+            <li><span>Latest Exam</span><strong>ICT | 14/03/2026</strong></li>
+            <li><span>Course Status</span><strong>Active</strong></li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="stats stats-3">
+        <article class="stat"><div class="label">Course</div><div class="value small">HSC Model Test 26</div></article>
+        <article class="stat"><div class="label">Past Exams</div><div class="value">12</div></article>
+        <article class="stat"><div class="label">Latest Exam</div><div class="value small">ICT | 14/03/2026</div></article>
+      </section>
+
+      <section class="action-list">
+        <a class="action-item" href="master-class.html"><span>Live Class</span><span class="action-arrow">›</span></a>
+        <a class="action-item" href="past-exams.html"><span>Live Exam</span><span class="action-arrow">›</span></a>
+        <a class="action-item" href="practice-exam.html"><span>Practice Exam</span><span class="action-arrow">›</span></a>
+        <a class="action-item" href="solve-sheet.html"><span>Solve Sheet</span><span class="action-arrow">›</span></a>
+        <a class="action-item" href="qa-service.html"><span>Q&A Service</span><span class="action-arrow">›</span></a>
+        <a class="action-item" href="course-content.html"><span>Course & Content</span><span class="action-arrow">›</span></a>
+        <a class="action-item" href="discussion-group.html"><span>Discussion Group</span><span class="action-arrow">›</span></a>
+      </section>
+
+      <section class="panel" style="margin-top: 10px;">
+        <h3>Recent Exams</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Test</th>
+                <th>Subject</th>
+                <th>Date</th>
+                <th>Total</th>
+                <th>Rank</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>#010</td><td>Biology 2nd Paper</td><td>08/03/2026</td><td>77/100</td><td>186</td></tr>
+              <tr><td>#011</td><td>Higher Math 2nd Paper</td><td>10/03/2026</td><td>82/100</td><td>149</td></tr>
+              <tr><td>#012</td><td>ICT</td><td>12/03/2026</td><td>77/100</td><td>171</td></tr>
+              <tr><td>#013</td><td>English 1st Paper</td><td>13/03/2026</td><td>Absent</td><td>-</td></tr>
+              <tr><td>#014</td><td>ICT</td><td>14/03/2026</td><td>80/100</td><td>158</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="backdrop" id="backdrop"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Udvash-Unmesh Online Care</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="login">
+  <main class="auth-shell">
+    <section class="auth-card">
+      <img src="https://udvash-unmesh.com/media/Images/Udvash/Common/UdvashUnmeshOnlineCare.png" alt="Udvash-Unmesh Online Care" class="auth-logo-img" />
+      <div class="auth-brand">Udvash-Unmesh Online Care</div>
+      <h1>Student Login</h1>
+      <p>Sign in to access your dashboard and past exam history.</p>
+      <form id="loginForm" class="auth-form">
+        <label for="studentId">Student ID</label>
+        <input id="studentId" name="studentId" type="text" placeholder="Enter Student ID" required />
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Enter Password" required />
+        <button type="submit" class="btn auth-btn">Login</button>
+        <p class="auth-error" id="authError"></p>
+      </form>
+    </section>
+  </main>
+  <div class="backdrop" id="backdrop"></div>
+  <script src="app.js"></script>
+</body>
+</html>

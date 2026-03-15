@@ -1,0 +1,77 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/dashboard"
+  to = "/dashboard.html"
+  status = 200
+
+[[redirects]]
+  from = "/past-exams"
+  to = "/past-exams.html"
+  status = 200
+
+[[redirects]]
+  from = "/practice-exam"
+  to = "/practice-exam.html"
+  status = 200
+
+[[redirects]]
+  from = "/solve-sheet"
+  to = "/solve-sheet.html"
+  status = 200
+
+[[redirects]]
+  from = "/performance"
+  to = "/performance.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-content"
+  to = "/course-content.html"
+  status = 200
+
+[[redirects]]
+  from = "/discussion-group"
+  to = "/discussion-group.html"
+  status = 200
+
+[[redirects]]
+  from = "/community"
+  to = "/community.html"
+  status = 200
+
+[[redirects]]
+  from = "/add-course"
+  to = "/add-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/master-class"
+  to = "/master-class.html"
+  status = 200
+
+[[redirects]]
+  from = "/foundation-class"
+  to = "/foundation-class.html"
+  status = 200
+
+[[redirects]]
+  from = "/past-classes"
+  to = "/past-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/qa-service"
+  to = "/qa-service.html"
+  status = 200
+
+[[redirects]]
+  from = "/due-payment"
+  to = "/due-payment.html"
+  status = 200
